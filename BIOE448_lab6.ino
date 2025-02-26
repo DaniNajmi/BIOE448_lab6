@@ -29,6 +29,11 @@ void loop() {
     first_peak_detected = true;
   } 
 
+  if (pulse_signal < lower_threshold) {
+    any_peak_detected = false;
+    first_peak_detected = false;
+  }
+
 }
 
 
