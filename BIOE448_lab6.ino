@@ -1,3 +1,8 @@
+// Lab 6 Microcontrollers: Signal Processing
+// February 26th, 2025
+// Daniela Najmias Lang, Akshay Shyam
+
+
 const int sensor_pin = 1;
 int pulse_signal = 0;
 float BPM = 0;
